@@ -49,3 +49,7 @@ Java
 
 ## 技術
 SQLite
+
+## インストール
+以下のapkによりインストール可能
+BlockForce_Kotlin/app/release/BlockForce.apk
