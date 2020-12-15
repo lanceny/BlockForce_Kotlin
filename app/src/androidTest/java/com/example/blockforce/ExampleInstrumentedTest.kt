@@ -1,4 +1,4 @@
-package com.example.blockforce_kotlin
+package com.example.blockforce
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry

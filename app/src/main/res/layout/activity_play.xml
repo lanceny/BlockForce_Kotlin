@@ -36,7 +36,7 @@
         app:layout_constraintEnd_toEndOf = "parent"
         android:contentDescription = "@string/rotate_left" />
 
-    <com.example.blockforce_kotlin.Draw
+    <com.example.blockforce.Draw
         android:id = "@+id/view"
         android:layout_width = "0dp"
         android:layout_height = "0dp"

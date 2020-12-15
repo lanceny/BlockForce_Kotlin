@@ -1,4 +1,4 @@
-package com.example.blockforce_kotlin
+package com.example.blockforce
 
 import org.junit.Assert
 import org.junit.Test
