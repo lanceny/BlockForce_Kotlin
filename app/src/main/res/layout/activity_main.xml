@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width = "300dp"
+        android:layout_height = "80dp"
+        android:layout_marginBottom = "100dp"
+        android:gravity = "center_horizontal"
+        android:text = "@string/blockforce"
+        android:textSize = "60sp"
+        app:layout_constraintBottom_toBottomOf = "parent"
+        app:layout_constraintLeft_toLeftOf = "parent"
+        app:layout_constraintRight_toRightOf = "parent"
+        app:layout_constraintTop_toTopOf = "parent" />
+
+    <Button
+        android:id = "@+id/button"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_marginBottom = "200dp"
+        android:onClick = "Start_onClick"
+        android:text="@string/Start"
+        app:layout_constraintBottom_toBottomOf = "parent"
+        app:layout_constraintEnd_toEndOf = "parent"
+        app:layout_constraintStart_toStartOf = "parent" />
+
+    <Button
+        android:id = "@+id/How"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:onClick = "How_onClick"
+        android:text = "@string/how_to_play"
+        app:layout_constraintBottom_toTopOf = "@+id/score"
+        app:layout_constraintEnd_toEndOf = "parent"
+        app:layout_constraintStart_toStartOf = "parent"
+        app:layout_constraintTop_toBottomOf = "@+id/button" />
+
+    <Button
+        android:id = "@+id/score"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_marginBottom = "50dp"
+        android:onClick = "score_onClick"
+        android:text = "@string/score"
+        app:layout_constraintBottom_toBottomOf = "parent"
+        app:layout_constraintEnd_toEndOf = "parent"
+        app:layout_constraintStart_toStartOf = "parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

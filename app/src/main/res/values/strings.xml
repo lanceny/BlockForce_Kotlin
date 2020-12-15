@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BlockForce</string>
+    <string name="Start">Start</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="blockforce">BlockForce</string>
+    <string name="how_to_play">How to play</string>
+    <string name="rotate_right">Rotate right</string>
+    <string name="rotate_left">Rotate left</string>
+    <string name="move_block_down">Move block down</string>
+    <string name="next">Next</string>
+    <string name="after_n20turns">After20turns</string>
+    <string name="Explain">jh</string>
+    <string name="score">Score</string>
+    <string name="explain">・操作方法\n右，左，下にスライドすればその方向にブロックが移動します．ブロックを回転させたい場合は右回転矢印のボタン，あるいは左回転矢印のボタンを押してください．ブロックを素早く下に落としたい場合は下矢印のボタンを押してください．\n\n・ゲーム説明\n横にブロックで埋め尽くされるとその段は削されます．10行消すごとにLevelが1上がり，ブロックが下に落ちる速度が上昇します．20ターン毎に特殊ブロックを使用させられます．残り何ターンで使用することになるかは右上に表示されています．新しくブロックが生成される位置にブロックが設置されている場合はゲームオーバーとなり，消した行の総数(Lines)が表示されます．</string>
+    <string name="Level">Level\n%1$d</string>
+    <string name="Lines">Lines\n%1$d</string>
+    <string name="After_turns">After\n%1$dturns</string>
+</resources>
