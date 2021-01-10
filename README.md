@@ -52,5 +52,5 @@ SQLite
 
 ## インストール
 以下のapkによりインストール可能
-BlockForce/app/release/app-release.apk
+BlockForce_Kotlin/app/release/app-release.apk
 
