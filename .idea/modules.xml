@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BlockForce.iml" filepath="$PROJECT_DIR$/.idea/modules/BlockForce.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BlockForce.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BlockForce.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/blockforce_kotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/blockforce_kotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/blockforce_kotlin.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/blockforce_kotlin.app.iml" />
     </modules>
   </component>
 </project>
